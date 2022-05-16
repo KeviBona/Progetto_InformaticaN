@@ -40,7 +40,7 @@ if(isset($_POST["submit"]))
     }
 else
 {
-    echo(" <h1>La mia pagina di login</h1>
+    echo(" <h1>Accedi</h1>
     <form action='".$_SERVER['PHP_SELF']."' method='POST'>
         <label for='username'>Nome utente:</label>
         <input type='text' value='inserisci username' name='username'><br>
