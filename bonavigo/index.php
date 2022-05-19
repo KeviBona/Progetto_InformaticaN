@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +27,7 @@
 </head>
 
 <body>
-    <form action="register.php" method="POST">
+    <form action="php/register.php" method="POST">
     <h2> Registrati</h2>
     <label for="email">Email</label>
     <input type="email"  name="email" id="email" required>
