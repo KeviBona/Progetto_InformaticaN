@@ -11,7 +11,6 @@
             display : flex;
             justify-content: center;
         }
-
         form{
             display: flex;
             flex-direction: column;
@@ -20,12 +19,9 @@
         
         form > input{
             margin-bottom: 20px;
-
         }
     </style>
-
 </head>
-
 <body>
     <form action="php/register.php" method="POST">
     <h2> Registrati</h2>
@@ -34,13 +30,9 @@
     
     <label for="username">Username</label>
     <input type="text"  name="username" id="username" required>
-
     <label for="password">Password</label>
     <input type="password"  name="password" id="password" required>
-
     <input type="submit" value="invia">
+    <p>Hai gia' un account? <a href="login.html">Accedi</a></p>
     </form>
-
 </body>
-
-
